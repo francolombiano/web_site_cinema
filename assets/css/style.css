@@ -1,0 +1,91 @@
+:root {
+  --red: #b42b51;
+  --gray: #191a19;
+  --gray-2: #353535;
+  --gray-light: #bbbbbb;
+  --black: #000;
+  --box-shadow-dark: 0px 5px 10px 0px rgba(50, 50, 50, 0.8);
+  --box-shadow-light: -1px 1px 10px 0px #efe8e8;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--gray);
+  color: #fff;
+}
+
+nav {
+  background-color: var(--black);
+  /* margin-bottom: 5rem !important; */
+}
+
+h1 {
+  /* font-size: 4rem !important; */
+  margin: 0.8rem 4rem;
+  font-weight: bolder;
+}
+
+h1 a {
+  font-size: 5rem !important;
+  color: var(--red) !important;
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+nav li a {
+  /* font-size: 4rem !important; */
+  color: #fff !important;
+  /* font-weight: bolder !important; */
+  margin: 0.8rem;
+}
+
+main {
+  padding: 10rem 4rem;
+  /* margin-top: 10rem !important; */
+  min-height: 815px; /* je le met afin d'empêcher le footer de rementer dans la page*/
+  /* transition: all 0.2s; */
+}
+
+/* ************************************** Page d'accueil ************************************** */
+
+h2 {
+  font-size: 5rem !important;
+  color: var(--red) !important;
+  font-weight: bolder !important;
+}
+
+.sidebarre, table {
+  background-color: #353535;
+  color: #fff !important;
+  box-shadow: var(--box-shadow-light) !important;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th{
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+/* a.btn,
+input.btnpanier {
+  background-color: var(--red) !important;
+  color: white;
+  padding: 0.8rem;
+  font-size: 1.3rem !important;
+  font-weight: bold;
+} */
